@@ -20,15 +20,15 @@ JavaScript (ES6) – for interactivity and dynamic features
 # 📁 Project Structure
 
 ecommerce-clone/
-│
-├── index.html
-├── css
-├── js
-│ 
-└── svg
-│   ├── flipcart logo/
-│ 
-└── README.md
+- │
+- ├── index.html
+- ├── css
+- ├── js
+- │ 
+- └── svg
+- ├── flipcart logo/
+- │ 
+- └── README.md
 
 # 💡 How to Run
 Clone or download the project.
