@@ -5,7 +5,7 @@
 A simple front-end E-commerce website clone created using HTML, CSS, and JavaScript.
 The project replicates the basic design and layout of an online shopping platform — featuring a header with navigation, product categories, image slider, and product listings. It’s responsive and interactive, offering a real-world eCommerce UI experience.
 
-# 🚀 Features
+# 🚀 Features 
 🧭 Navigation bar with search and categories
 🖼️ Image slider/hero banner
 🛒 Product cards with image, name, and price
