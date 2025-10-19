@@ -36,6 +36,6 @@ Open the folder in VS Code (or any code editor).
 Run index.html directly in your browser.
 
 #📷 Preview
-
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7318f96f-911b-4929-9d6c-f02ec7993f67" />
 A modern and responsive E-commerce front-end inspired by Flipkart layout.
 Includes categories, banner, and trending product sections.
