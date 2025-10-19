@@ -13,7 +13,7 @@ The project replicates the basic design and layout of an online shopping platfor
 ⚡ Simple JavaScript-based interactivity (like slider or cart counter)
 
 # 🛠️ Tech Stack
-HTML5 – for page structure
+HTML5 – for page structure 
 CSS3 – for styling and layout (Flexbox & Grid)
 JavaScript (ES6) – for interactivity and dynamic features
 
