@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipcart - Buy and Sell your product</title>
+    <!-- importing CSS file  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="svg/flipkart.svg" alt="Flipkart Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products, brand and more...">
+            <button type="submit">
+                <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#2874F1" fill-rule="evenodd">
+                        <path class="_34RNph"
+                            d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203">
+                        </path>
+                        <path class="_34RNph"
+                            d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+                        </path>
+                    </g>
+                </svg>
+            </button>
+        </div>
+        <div class="user-box">
+            <div class="user-id">
+              <div class="user-name">
+              Sandeep Mallick
+            </div>
+              <!-- <div class="dropdown-arrow"></div> -->
+              <div class="dropdown-menu">
+                <ul>
+                  <li ><a href="https://github.com/sandeepmallick">👤 My Profile</a></li>
+                  <li>🛍️Orders</li>
+                  <li>💝Wishlist</li>
+                  <li>🔔Notificartion</li>
+                  <li>🚺Log Out</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class="user-profile">
+            <span>Become a Seller ?</span>
+        </div>
+        <div class="cart">
+            <button id="cart-button">
+                <svg class="cart-svg " width="16 " height="16 " viewBox="0 0 16 16 ">
+                    <path
+                        d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86 "
+                        fill="#fff "></path>
+                </svg> Cart (<span id="cart-count">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li class="items"><a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100">
+                    <p>Grocery</p>
+                </a></li>
+            <li class="items"><a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100">
+                    <p>Mobiles</p>
+                </a></li>
+            <li class="items"><a href="#">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100">
+                    <p>Dress & Cloth</p>
+                </a></li>
+            <li class="items"><a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100">
+                    <p>Furniture</p>
+                </a></li>
+            <li class="items"><a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100">
+                    <p>Appliances</p>
+                </a></li>
+            <li class="items"><a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100">
+                    <p>Toys</p>
+                </a></li>
+            <li class="items"><a href="#">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100">
+                    <p>MotorBikes</p>
+                </a></li>
+        </ul>
+    </nav>
+    <div class="carousel">
+        <div class="slides">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/9527eeaa1f8cc740.png?q=20" alt="slide image"
+                class="slide">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/844/140/image/7825fed65d6ce993.jpg?q=50"
+                alt="slide image" class="slide">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/a13590e0362f7e20.jpg?q=20" alt="slide image"
+                class="slide">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/7d9362472788c156.jpg?q=20" alt="slide image"
+                class="slide">
+        </div>
+        <div class="controls">
+            <div class="control prev-slide">&#9668;</div>
+            <div class="control next-slide">&#9658;</div>
+        </div>
+    </div>
+
+    <main>
+        <h2>Trending Products</h2>
+        <section>
+
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/a/l/m/-original-imagp55fu6uq2jch.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/y/z/r/-original-imagkp8yzvqffyhc.jpeg?q=70"
+                    alt="Product Image">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, officia.</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <h2>Top Products</h2>
+        <div class="slider" id="slider">
+            
+            <div class="slide" id="slide">
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/200/200/xif0q/watch/x/1/j/-original-imagqhvfmafyyzn8.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/200/200/l2hwwi80/shopsy-backpack/p/c/b/medium-30-l-laptop-casual-backpack-bagpack-for-men-women-khadi-original-imagdtsjgecyspf2.jpeg?q=70">
+                <p>Waterproof school bag</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/200/200/xif0q/hand-messenger-bag/q/t/s/fgo-499-30-fgo-499-messenger-bag-fargo-21-original-imagk4zvuknskn9q.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/200/200/kzygpzk0/mouse/r/8/m/ergo11e-elevn-original-imagbun2feydnzhh.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/312/312/xif0q/shoe/n/h/z/6-vision-2-tblured-lakhani-vardaan-blue-original-imagkgzshjb7krcz.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/312/312/k687wy80/headphone/j/e/a/worofy-best-quality-headset-original-imafz4nf8pcfjkre.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/200/200/xif0q/shoe/l/u/c/10-8050-black-red-waan-black-red-original-imag5psezyhhwwks-bb.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/312/312/krtjgcw0/television/t/p/l/l32m6-inc-mi-original-imag5gq752cwaxyy.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/200/200/k5e7o280/wall-clock/6/h/j/designer-wall-clock10-cw-ct-red25412-analog-ajanta-original-imafzyx3fdtf2hcb.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+              
+              <div class="pd">
+                <img class="item" src="https://rukminim1.flixcart.com/image/312/312/k6fd47k0pkrrdj/headphone/n/k/y/drumstone-latest-design-behind-the-neck-original-imaff7yx96vfcxdf.jpeg?q=70">
+                <p>Wrist band, smart watch</p>
+                <span>4.5⭐</span>
+                <p>₹1,259 <span>₹1,599 21% off</span></p>
+              </div>
+            </div>
+            <button class="ctrl-btn pro-prev">&#9668;</button>
+            <button class="ctrl-btn pro-next">&#9658;</button>
+          </div>
+    </main>
+
+    <footer>
+        <!-- Footer main -->
+        <section class="ft-main">
+          <div class="ft-main-item">
+            <h2 class="ft-title">ABOUT</h2>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Flipcart Storis</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Wholesales</a></li>
+              <li><a href="#">corporate information</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">HELP</h2>
+            <ul>
+              <li><a href="#">Payment</a></li>
+              <li><a href="#">Shoping</a></li>
+              <li><a href="#">Cancelaiton</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Report Infringement</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">CONSUMER POLICY</h2>
+            <ul>
+              <li><a href="#">Return policies</a></li>
+              <li><a href="#">Term of use</a></li>
+              <li><a href="#">security</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Grievance redressal</a></li>
+              <li><a href="#">EPR Compilance</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">SOCIAL</h2>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
+        </section>
+      <hr>
+        <div class="foot">
+          <a href="#">© 2025 Sandeep Mallick All Rights Reserved.</a>
+            <a href="#">💼 Become a Seller</a>
+            <a href="#">💁‍♂️ Help Center</a>
+            <a href="#">© 2007-2025 Flipkart.com</a>
+            <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg">
+        </div>
+      </footer>
+
+    <!-- Importing javascript file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
